@@ -49,6 +49,15 @@ textwrap = "0.14"
 async-compression = { version = "0.3.8", features = ["tokio", "gzip"] }
 flate2 = { version = "1.0.22", features = ["default"] }
 
+# Tarpc
+opentelemetry = { version = "0.16", features = ["rt-tokio"] }
+opentelemetry-jaeger = { version = "0.15", features = ["rt-tokio"] }
+tarpc = { version = "0.27", features = ["full"] }
+tracing = { version = "0.1" }
+tracing-opentelemetry = "0.15"
+tracing-subscriber = "0.2"
+rand = "0.8"
+
 # Tako
 tako = { path = "../tako" }
 

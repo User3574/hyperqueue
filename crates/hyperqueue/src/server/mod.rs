@@ -4,5 +4,6 @@ pub mod client;
 pub mod event;
 pub mod job;
 pub mod rpc;
+pub mod server;
 pub mod state;
 pub mod worker;
